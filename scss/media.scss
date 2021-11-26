@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1080px) {
+  .cartasAdopcion {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    .card {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .quien__uno {
+    flex-direction: column;
+    .imaperro__uno {
+      width: 100%;
+    }
+    .parraf__uno {
+      margin-top: 2rem;
+      width: 100%;
+      font-size: 25px;
+      text-align: justify;
+    }
+  }
+
+  .container__report__uno {
+    flex-direction: column;
+    align-items: center;
+    .video__uno {
+      width: 40rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cartasAdopcion {
+    flex-direction: column;
+    margin-bottom: 2rem;
+    .card {
+      width: 21rem;
+      height: 27rem;
+      margin-bottom: 2rem;
+      .cardImg {
+        width: 18rem;
+      }
+    }
+  }
+
+
+   .quien__uno {
+      flex-direction: column;
+      width: -15%;
+ 
+      .imaperro__uno {
+        width: 100%;
+      }
+      .parraf__uno {
+        margin-top: 2rem;
+        width: 100%;
+        font-size: 15px;
+        text-align: justify;
+      }
+    }
+  
+
+  
+
+  .container__report__uno {
+    flex-direction: column;
+    align-items: center;
+    .video__uno {
+      width: 20rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

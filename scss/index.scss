@@ -1,0 +1,224 @@
+body {
+  background-color: $fondo;
+  font-family: roboto;
+}
+.titulo__uno {
+  text-align: center;
+  font-size: 30px;
+  color: $colorTit;
+  padding: 25px;
+  margin-top: 3rem;
+}
+
+/*busqueda*/
+.container__bus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $fondoDiv;
+  padding: 2rem;
+  margin-top: 3rem;
+
+  .form__group {
+    background-color: $fondoDiv;
+    top: -20px;
+    padding: 10px 5px 10px;
+
+    .control__label {
+      margin-left: 110px;
+      color: $colorTit;
+      margin-bottom: -40px;
+      background-color: $fondoDiv;
+
+      label {
+        background-color: $fondoDiv;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+      }
+    }
+
+    .option__group {
+      background-color: $fondoDiv;
+      margin-top: 15px;
+      padding: 20px;
+
+      select {
+        width: 253px;
+        padding: 10px 30px 10px 40px;
+        outline: none;
+        font-size: 18px;
+        border-radius: 15px;
+        border: 1px;
+        background-color: $colorTit;
+        color: rgb(3, 3, 3);
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .box__but {
+    .boton__sel {
+      margin-left: 0px;
+      background-color: #f0304a;
+      width: 200px;
+      height: 37px;
+      margin-top: 55px;
+      outline: none;
+      font-size: medium;
+      border-radius: 15px;
+    }
+    .boton__sel:hover {
+      background-color: rgb(219, 0, 0);
+      color: $colorTit;
+    }
+  }
+
+  .butom__radio {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(22, 22, 22);
+
+    .to__comuna {
+      margin-top: 20px;
+      text-align: center;
+      background-color: $fondoDiv;
+    }
+  }
+}
+
+/*adoptame*/
+
+/*titulos*/
+.tit__titulos {
+  padding: 2rem;
+  margin-top: 2rem;
+
+  .h1__adopt {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color: $colorTit;
+  }
+
+  .h4__encuentra {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: $colorTit;
+  }
+}
+
+/*tarjetas*/
+.cartasAdopcion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+  
+ 
+  .card {
+    color: slategrey;
+    border-radius: 5%;
+
+    .card-img-top {
+      margin-top: 6px;
+      margin-left: 8px;
+      border-radius: 5%;
+      width: 95%;
+      max-width: 280px;
+    }
+
+    .card-body {
+      .card-title {
+        color: grey;
+        text-align: left;
+        margin-top: 5px;
+      }
+      .cards-text {
+        text-align: left;
+      }
+      .btn {
+        border-radius: 1rem;
+        width: 10rem;
+      }
+    }
+  }
+}
+
+/*quines somos*/
+
+.quien__uno {
+  background-color: #b9c8df;
+  padding: 3rem;
+  display: flex;
+    justify-content: space-evenly;
+  
+    .imaperro__uno {
+      border-radius: 5%;
+      background-color: #b9c8df;
+      width: 30rem;
+    }
+  }
+  .parraf__uno {
+    background-color: #b9c8df;
+    color: black;
+    width: 30rem;
+    line-height: 2rem;
+}
+
+
+/*titulo videos*/
+.tit_titulo {
+  .titulo__ayuda {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+  }
+  .ayuda__tit {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+  }
+}
+
+/*videos*/
+.container__report__uno {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+
+  .video {
+    width: 40rem;
+  }
+}
+
+/*mapa*/
+.titulos__mapa {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: white;
+}
+
+/*footer*/
+
+.footer_uno {
+  color: #fff;
+  margin-top: 5rem;
+  padding: 10px;
+  text-align: center;
+
+  img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .social_uno {
+    padding: 15px;
+  }
+}

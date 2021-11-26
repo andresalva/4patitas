@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #248a9f;
+  font-family: roboto; }
+
+.titulo__uno {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 25px;
+  margin-top: 3rem; }
+
+/*busqueda*/
+.container__bus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #b9c8df;
+  padding: 2rem;
+  margin-top: 3rem; }
+  .container__bus .form__group {
+    background-color: #b9c8df;
+    top: -20px;
+    padding: 10px 5px 10px; }
+    .container__bus .form__group .control__label {
+      margin-left: 110px;
+      color: white;
+      margin-bottom: -40px;
+      background-color: #b9c8df; }
+      .container__bus .form__group .control__label label {
+        background-color: #b9c8df;
+        text-align: center;
+        font-size: 20px;
+        color: black; }
+    .container__bus .form__group .option__group {
+      background-color: #b9c8df;
+      margin-top: 15px;
+      padding: 20px; }
+      .container__bus .form__group .option__group select {
+        width: 253px;
+        padding: 10px 30px 10px 40px;
+        outline: none;
+        font-size: 18px;
+        border-radius: 15px;
+        border: 1px;
+        background-color: white;
+        color: #030303;
+        margin-top: 10px; }
+  .container__bus .box__but .boton__sel {
+    margin-left: 0px;
+    background-color: #f0304a;
+    width: 200px;
+    height: 37px;
+    margin-top: 55px;
+    outline: none;
+    font-size: medium;
+    border-radius: 15px; }
+  .container__bus .box__but .boton__sel:hover {
+    background-color: #db0000;
+    color: white; }
+  .container__bus .butom__radio {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 100%;
+    color: #161616; }
+    .container__bus .butom__radio .to__comuna {
+      margin-top: 20px;
+      text-align: center;
+      background-color: #b9c8df; }
+
+/*adoptame*/
+/*titulos*/
+.tit__titulos {
+  padding: 2rem;
+  margin-top: 2rem; }
+  .tit__titulos .h1__adopt {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color: white; }
+  .tit__titulos .h4__encuentra {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white; }
+
+/*tarjetas*/
+.cartasAdopcion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem; }
+  .cartasAdopcion .card {
+    color: slategrey;
+    border-radius: 5%; }
+    .cartasAdopcion .card .card-img-top {
+      margin-top: 6px;
+      margin-left: 8px;
+      border-radius: 5%;
+      width: 95%;
+      max-width: 280px; }
+    .cartasAdopcion .card .card-body .card-title {
+      color: grey;
+      text-align: left;
+      margin-top: 5px; }
+    .cartasAdopcion .card .card-body .cards-text {
+      text-align: left; }
+    .cartasAdopcion .card .card-body .btn {
+      border-radius: 1rem;
+      width: 10rem; }
+
+/*quines somos*/
+.quien__uno {
+  background-color: #b9c8df;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly; }
+  .quien__uno .imaperro__uno {
+    border-radius: 5%;
+    background-color: #b9c8df;
+    width: 30rem; }
+
+.parraf__uno {
+  background-color: #b9c8df;
+  color: black;
+  width: 30rem;
+  line-height: 2rem; }
+
+/*titulo videos*/
+.tit_titulo .titulo__ayuda {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 15px; }
+
+.tit_titulo .ayuda__tit {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 10px; }
+
+/*videos*/
+.container__report__uno {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem; }
+  .container__report__uno .video {
+    width: 40rem; }
+
+/*mapa*/
+.titulos__mapa {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: white; }
+
+/*footer*/
+.footer_uno {
+  color: #fff;
+  margin-top: 5rem;
+  padding: 10px;
+  text-align: center; }
+  .footer_uno img {
+    width: 50px;
+    margin-right: 10px; }
+  .footer_uno .social_uno {
+    padding: 15px; }
+
+@media only screen and (max-width: 1080px) {
+  .cartasAdopcion {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .cartasAdopcion .card {
+      margin-bottom: 2rem; }
+  .quien__uno {
+    flex-direction: column; }
+    .quien__uno .imaperro__uno {
+      width: 100%; }
+    .quien__uno .parraf__uno {
+      margin-top: 2rem;
+      width: 100%;
+      font-size: 25px;
+      text-align: justify; }
+  .container__report__uno {
+    flex-direction: column;
+    align-items: center; }
+    .container__report__uno .video__uno {
+      width: 40rem;
+      margin-bottom: 1rem; } }
+
+@media only screen and (max-width: 700px) {
+  .cartasAdopcion {
+    flex-direction: column;
+    margin-bottom: 2rem; }
+    .cartasAdopcion .card {
+      width: 21rem;
+      height: 27rem;
+      margin-bottom: 2rem; }
+      .cartasAdopcion .card .cardImg {
+        width: 18rem; }
+  .quien__uno {
+    flex-direction: column;
+    width: -15%; }
+    .quien__uno .imaperro__uno {
+      width: 100%; }
+    .quien__uno .parraf__uno {
+      margin-top: 2rem;
+      width: 100%;
+      font-size: 15px;
+      text-align: justify; }
+  .container__report__uno {
+    flex-direction: column;
+    align-items: center; }
+    .container__report__uno .video__uno {
+      width: 20rem;
+      margin-bottom: 1rem; } }
