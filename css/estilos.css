@@ -7,6 +7,29 @@ body {
   background-color: #248a9f;
   font-family: roboto; }
 
+.parraf3 {
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  line-height: 2rem;
+  color: white;
+  font-size: 18px; }
+
+/*footer*/
+.footer__uno {
+  color: #fff;
+  margin-top: 5rem;
+  padding: 10px;
+  text-align: center; }
+  .footer__uno img {
+    width: 50px;
+    margin-right: 10px; }
+  .footer__uno .social__uno {
+    padding: 15px; }
+
 .titulo__uno {
   text-align: center;
   font-size: 30px;
@@ -159,18 +182,6 @@ body {
   margin-top: 1.5rem;
   color: white; }
 
-/*footer*/
-.footer_uno {
-  color: #fff;
-  margin-top: 5rem;
-  padding: 10px;
-  text-align: center; }
-  .footer_uno img {
-    width: 50px;
-    margin-right: 10px; }
-  .footer_uno .social_uno {
-    padding: 15px; }
-
 @media only screen and (max-width: 1080px) {
   .cartasAdopcion {
     flex-direction: column;
@@ -220,3 +231,76 @@ body {
     .container__report__uno .video__uno {
       width: 20rem;
       margin-bottom: 1rem; } }
+
+.galeria__grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 1rem;
+  background-color: #248a9f; }
+  .galeria__grid .foto__galeria {
+    width: 90%;
+    height: auto;
+    display: grid; }
+    .galeria__grid .foto__galeria .foto {
+      min-height: 10rem;
+      background-color: #248a9f;
+      border: 1px solid black;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem; }
+    .galeria__grid .foto__galeria .imagen__1 {
+      grid-column: 4;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      background-image: url(../img/perro1.jpg);
+      background-size: cover;
+      background-position: center; }
+    .galeria__grid .foto__galeria .imagen__2 {
+      grid-column: 1;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      background-image: url(../img/refugio.jpg);
+      background-size: cover;
+      background-position: center; }
+    .galeria__grid .foto__galeria .imagen__3 {
+      grid-column: 4;
+      grid-row: 2;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      background-image: url(../img/grid.jpg);
+      background-size: cover;
+      background-position: center; }
+    .galeria__grid .foto__galeria .imagen__4 {
+      grid-column: 1;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row: 1;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      background-image: url(../img/adoptado.jpg);
+      background-size: cover;
+      background-position: center; }
+    .galeria__grid .foto__galeria .imagen__5 {
+      grid-column: 2;
+      grid-row: 1;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      background-image: url(../img/adoptado3.jpg);
+      background-size: cover;
+      background-position: center; }
+    .galeria__grid .foto__galeria .imagen__6 {
+      grid-column: 2;
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      background-image: url(../img/108956901_m.jpg);
+      background-size: cover;
+      background-position: center; }

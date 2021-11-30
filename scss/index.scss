@@ -1,7 +1,4 @@
-body {
-  background-color: $fondo;
-  font-family: roboto;
-}
+
 .titulo__uno {
   text-align: center;
   font-size: 30px;
@@ -205,20 +202,3 @@ body {
   color: white;
 }
 
-/*footer*/
-
-.footer_uno {
-  color: #fff;
-  margin-top: 5rem;
-  padding: 10px;
-  text-align: center;
-
-  img {
-    width: 50px;
-    margin-right: 10px;
-  }
-
-  .social_uno {
-    padding: 15px;
-  }
-}

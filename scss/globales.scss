@@ -1,0 +1,45 @@
+
+$fondo:#248a9f;
+$fondoDiv:#b9c8df;
+$colorTit:white;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: $fondo;
+    font-family: roboto;
+  }
+
+  .parraf3 {
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    line-height: 2rem;
+    color: white;
+    font-size: 18px;
+  }
+
+  /*footer*/
+
+.footer__uno {
+  color: #fff;
+  margin-top: 5rem;
+  padding: 10px;
+  text-align: center;
+
+  img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .social__uno {
+    padding: 15px;
+  }
+}
