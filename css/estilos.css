@@ -7,7 +7,8 @@ body {
   background-color: #248a9f;
   font-family: roboto; }
 
-.parraf3 {
+/*seccion quienes*/
+.parraf__3, .parraf__2 {
   width: 70rem;
   display: flex;
   justify-content: center;
@@ -18,13 +19,32 @@ body {
   color: white;
   font-size: 18px; }
 
+/*seccion adoptar*/
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  border-radius: 0px 0px 40px 40px; }
+  .main .main__title {
+    text-align: center;
+    width: 100%;
+    margin-top: 0rem;
+    color: white;
+    font-size: 40px;
+    font-weight: bold; }
+
+.parraf__2 {
+  margin-top: -2rem; }
+
 /*footer*/
 .footer__uno {
   color: #fff;
   margin-top: 5rem;
   padding: 10px;
   text-align: center; }
-  .footer__uno img {
+  .footer__uno .img__social {
     width: 50px;
     margin-right: 10px; }
   .footer__uno .social__uno {

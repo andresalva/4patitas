@@ -1,32 +1,55 @@
+$fondo: #248a9f;
+$fondoDiv: #b9c8df;
+$colorTit: white;
 
-$fondo:#248a9f;
-$fondoDiv:#b9c8df;
-$colorTit:white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background-color: $fondo;
+  font-family: roboto;
+}
+
+/*seccion quienes*/
+.parraf__3 {
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  line-height: 2rem;
+  color: white;
+  font-size: 18px;
+}
+
+/*seccion adoptar*/
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  border-radius: 0px 0px 40px 40px;
+  .main__title {
+    text-align: center;
+    width: 100%;
+    margin-top: 0rem;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
   }
-  
-  body {
-    background-color: $fondo;
-    font-family: roboto;
-  }
+}
 
-  .parraf3 {
-    width: 70rem;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    margin-left: 8rem;
-    margin-top: 5rem;
-    line-height: 2rem;
-    color: white;
-    font-size: 18px;
-  }
+.parraf__2 {
+  @extend .parraf__3;
+  margin-top: -2rem;
+}
 
-  /*footer*/
+/*footer*/
 
 .footer__uno {
   color: #fff;
@@ -34,7 +57,7 @@ $colorTit:white;
   padding: 10px;
   text-align: center;
 
-  img {
+  .img__social {
     width: 50px;
     margin-right: 10px;
   }
