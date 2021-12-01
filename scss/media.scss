@@ -29,6 +29,13 @@
       margin-bottom: 1rem;
     }
   }
+  .perrin__2 {
+    .parraf__3 {
+      width: 60rem;
+      align-content:left;
+      margin-left: 83px;
+    }
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -45,24 +52,20 @@
     }
   }
 
+  .quien__uno {
+    flex-direction: column;
+    width: -15%;
 
-   .quien__uno {
-      flex-direction: column;
-      width: -15%;
- 
-      .imaperro__uno {
-        width: 100%;
-      }
-      .parraf__uno {
-        margin-top: 2rem;
-        width: 100%;
-        font-size: 15px;
-        text-align: justify;
-      }
+    .imaperro__uno {
+      width: 100%;
     }
-  
-
-  
+    .parraf__uno {
+      margin-top: 2rem;
+      width: 100%;
+      font-size: 15px;
+      text-align: justify;
+    }
+  }
 
   .container__report__uno {
     flex-direction: column;
@@ -70,6 +73,22 @@
     .video__uno {
       width: 20rem;
       margin-bottom: 1rem;
+    }
+  }
+  .perrin__2 {
+    .parraf__3 {
+      width: 18rem;
+      align-content: center;
+      margin-left: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .perrin__2 {
+    .parraf__3 {
+      width: 18rem;
+      align-content: center;
+      margin-left: 50px;
     }
   }
 }

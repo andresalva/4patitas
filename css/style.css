@@ -2,243 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
   font-family: roboto;
   background-color: #248a9f;
-
 }
-
-/*menu*/
-.navbar-nav{
-  margin-left: 40rem;
-}
-
-
-/*tituolo1*/
-.titulo1 {
-  text-align: center;
-  font-size: 30px;
-  color: white;
-  padding: 25px;
-  margin-top: 3rem;
-}
-
-/*busqueda*/
-
-.container1 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #b9c8df;
-  padding: 2rem;
-  margin-top: 3rem;
-
-}
-
-.controlLabel {
-  margin-left: 110px;
-  color: #ffffff;
-  margin-bottom: -40px;
-  background-color: #b9c8df;
-}
-
-.formGroup {
-  background-color: #b9c8df;
-  top: -20px;
-  padding: 10px 5px 10px;
-}
-
-.optionGroup {
-  background-color: #b9c8df;
-  margin-top: 15px;
-  padding: 20px;
-}
-
-label {
-  background-color: #b9c8df;
-  margin-left: -15px;
-  font-size: x-large;
-  color: rgb(0, 0, 0);
-}
-
-select {
-  width: 253px;
-  padding: 5px 40px 10px 32px;
-  outline: none;
-  font-size: 18px;
-  border-radius: 15px;
-  border: 1px;
-  background-color: white;
-  color: rgb(3, 3, 3);
-  margin-top: 0px;
-}
-
-
-.botonSel {
-  margin-left: 0px;
-  background-color: #f0304a;
-  width: 200px;
-  height: 37px;
-  margin-top: 49px;
-  outline: none;
-  font-size: medium;
-  border-radius: 15px;
-}
-
-.botonSel:hover {
-  background-color: rgb(219, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-.butomRadio {
-  background-color: #b9c8df;
-  line-height: 1.6;
-  font-size: 22px;
-  width: 100%;
-  color: rgb(95, 95, 95);
-  /*border: 1px solid black;*/
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.toComuna {
-  background-color: #b9c8df;
-  text-align: center;
-}
-
-/*tituloadoptame*/
-.adopt {
-  text-align: center;
-  font-size: 30px;
-  padding: 5px;
-  color: white;
-}
-
-.encuentra {
-  text-align: center;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-}
-
-.titulos {
-  padding: 2rem;
-  margin-top: 2rem;
-}
-
-/*adopcion*/
-.textarriba{
-  
-  margin-top: 15px;
-  text-align: center;
-}
-
-.cartas{
- 
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.card{
-  color: slategrey;
-  border-radius: 5%;
-  margin:50px;
-
-}
-
-
-
-.card-img-top{
-  margin-top: 6px;
-  margin-left: 8px;
-  border-radius: 5%;
-  width: 95%;
-  max-width: 280px;
-}
-
-.card-title{
-  color: grey;
-  text-align:center;
-  margin-top: 5px;
-}
-
-.cards-text{
-  text-align: center;
-}
-
-.btn{
-  width: 15rem;
-  border-radius: 5rem;
-
-}
-
-/*quien*/
-.quien {
-  background-color: #b9c8df;
-  padding: 3rem;
-  /*border: 1px solid black;*/
-}
-
-.perrin {
-  background-color: #b9c8df;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.imaperro {
-  border-radius: 5%;
-  background-color: #b9c8df;
-  width: 30rem;
-}
-
-.parraf {
-  background-color: #b9c8df;
-  color: black;
-  width: 30rem;
-  line-height: 2rem;
-}
-
-/*reporte*/
-.TituloAyuda {
-  text-align: center;
-  font-size: 35px;
-  font-weight: bold;
-  color: white;
-  padding: 15px;
-}
-.ayuda {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  padding: 10px;
-}
-
-.containerReport1 {
-  /*border: 1px solid black;*/
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
-
-.video {
-  width: 40rem;
-}
-
-/*mapa*/
-.titulosMapa {
-  text-align: center;
-  margin-top: 1.5rem;
-  color: white;
-}
-
-/*footer*/
 
 .footer {
   color: #fff;
@@ -256,6 +25,10 @@ select {
   padding: 15px;
 }
 
+/*menu*/
+.navbar-nav {
+  margin-left: 40rem;
+}
 
 /*pagina adoptar*/
 
@@ -269,7 +42,6 @@ select {
 }
 
 .main__title {
-
   text-align: center;
   width: 100%;
   margin-top: -5rem;
@@ -278,34 +50,32 @@ select {
   font-weight: bold;
 }
 
-
-
-.parraf2{
-  text-align: center;
-  margin-top: -8rem;  
-  line-height: 2rem;
-  color: white;
-  font-size:18px;
-  
+.parraf2 {
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-left: 8rem;
+    margin-top: -5rem;
+    line-height: 2rem;
+    color: white;
+    font-size: 18px;
   }
 
-.carousel1{
-  
+
+.carousel1 {
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 5rem;
-  margin-left: 10rem;
-  position: static;
 }
 
-
 .carousel__container1 {
-
   transition: 450ms -webkit-transform;
   transition: 450ms transform;
   transition: 450ms transform, 450ms -webkit-transform;
   font-size: 0;
-  white-space: nowrap;
   margin: 0px 0px;
-  padding-bottom: 10px;
+  padding-bottom: 3rem;
 }
 
 .carousel__container1:hover .carousel-item1 {
@@ -314,12 +84,11 @@ select {
 
 .carousel__container1:hover .carousel-item1:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   opacity: 1;
 }
 
 .carousel-item1 {
-  
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -331,24 +100,28 @@ select {
   cursor: pointer;
   transition: 450ms all;
   -webkit-transform-origin: center left;
-          transform-origin: center left;
+  transform-origin: center left;
 }
 
 .carousel-item1:hover ~ .carousel-item1 {
   -webkit-transform: translate3d(100px, 0, 0);
-          transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 .carousel-item__img1 {
   width: 200px;
   height: 250px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .carousel-item__details1 {
   align-items: flex-start;
-  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   bottom: 0;
   display: flex;
   font-size: 10px;
@@ -377,9 +150,6 @@ select {
   font-size: large;
   color: rgb(0, 0, 0);
   background-color: white;
- 
-
- 
 }
 
 .carousel-item__details--subtitle1 {
@@ -390,26 +160,25 @@ select {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   font-size: 18px;
-  margin:3px 3px 3px;
+  margin: 3px 3px 3px;
   margin-left: -15;
 }
 
-
 /*pagina quienes somos*/
-  
 
-  .parraf3{
+.parraf3 {
+  width: 70rem;
   display: flex;
-  justify-content: center;  
-  text-align: center;
+  justify-content: center;
+  text-align: left;
+  margin-left: 8rem;
   margin-top: 5rem;
   line-height: 2rem;
   color: white;
-  font-size:18px;
-  }
-  
+  font-size: 18px;
+}
 
-.galeriaGrid{
+.galeriaGrid {
   width: 100%;
   height: auto;
   display: flex;
@@ -420,98 +189,95 @@ select {
   background-color: #248a9f;
 }
 
-.fotoGaleria{
+.fotoGaleria {
   width: 90%;
   height: auto;
   display: grid;
-
 }
 
-.foto{
+.foto {
   min-height: 10rem;
   background-color: #248a9f;
   border: 1px solid black;
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-.imagen1{
-  grid-column:4;
+.imagen1 {
+  grid-column: 4;
   grid-column-start: 1;
   grid-column-end: 5;
-  background-image: url(./img/perro1.jpg);
+  background-image: url(/img/perro1.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.imagen2{
+.imagen2 {
   grid-column: 1;
   grid-column-start: 4;
   grid-column-end: 5;
-  grid-row:2;
+  grid-row: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(./img/perro2.jpg);
+  background-image: url(/img/refugio.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
-.imagen3{
-  grid-column:4;
+.imagen3 {
+  grid-column: 4;
   grid-row: 2;
-  grid-column-start: 1 ;
+  grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 2 ;
+  grid-row-start: 2;
   grid-row-end: 4;
-  background-image: url(./img/perro5.jpg);
+  background-image: url(/img/grid.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.imagen4{
+.imagen4 {
   grid-column: 1;
   grid-column-start: 4;
   grid-column-end: 5;
-  grid-row:1;
+  grid-row: 1;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-image: url(./img/perro2.jpg);
+  background-image: url(/img/adoptado.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.imagen5{
+.imagen5 {
   grid-column: 2;
   grid-row: 1;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 4;
-  background-image: url(./img/perro5.jpg);
+  background-image: url(/img/adoptado3.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.imagen6{
+.imagen6 {
   grid-column: 2;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 4;
-  background-image: url(./img/perro1.jpg);
+  background-image: url(/img/108956901_m.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
 /*index registrate*/
 
-.regist{
+.regist {
   width: 50px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .register {
   margin-top: 8rem;
-  background:#248a9f;
+  background: #248a9f;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -524,15 +290,12 @@ select {
   border-radius: 20px;
   width: 350px;
   min-height: 500px;
-  padding: 40px 50px ;
+  padding: 40px 50px;
   color: white;
   margin-top: -50px;
 }
 
-
-
 .register__container_div {
- 
   margin-bottom: 50px;
 }
 
@@ -550,16 +313,16 @@ select {
   background-color: transparent;
   border-left: 0px;
   border-right: 0;
-  border-top:0;
+  border-top: 0;
   border-bottom: 2px solid rgb(255, 255, 255);
   font-size: 1rem;
   margin-bottom: 0px;
   height: 50px;
   padding: 0 20px;
   outline: none;
-  color:white;
+  color: white;
 }
-.pais{
+.pais {
   margin-top: 2rem;
 }
 
@@ -568,8 +331,7 @@ select {
 }
 
 .button {
-
-  background-color:#f0304a;
+  background-color: #f0304a;
   border: none;
   border-radius: 25px;
   color: white;
@@ -579,16 +341,16 @@ select {
   height: 30px;
   margin: 10px 0;
   margin-left: 1rem;
-  width: 220px; 
-  transition:background-color .5s;
-  transition: color .5s;   
+  width: 220px;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
 }
-   
-  .button:hover{
-  background-color:#be0606;
-  color:#ffffff;
+
+.button:hover {
+  background-color: #be0606;
+  color: #ffffff;
   box-shadow: none;
-  }
+}
 
 .register__inicio {
   margin-top: 30px;
@@ -604,7 +366,6 @@ select {
   margin-left: 50px;
 }
 
-
 /*responsive mediano*/
 /*dispositivo mediano*/
 
@@ -612,6 +373,11 @@ select {
   .cartasAdopcion {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    margin-bottom: 2rem;
   }
 
   .quien {
@@ -642,17 +408,82 @@ select {
     margin-bottom: 1rem;
   }
 
- 
+  .carousel-item1 {
+    margin-bottom: 2rem;
+  }
+
+  .carousel1 {
+    margin-left: 6rem;
+  }
+  .parraf3 {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    line-height: 2rem;
+    color: white;
+    font-size: 18px;
+  }
+  .parraf2{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-left: 6rem;
+    margin-top: -5rem;
+    line-height: 2rem;
+    color: white;
+    font-size: 18px;
+  }
 }
 
-@media only screen and (max-width: 700px) {
+.cont__error{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff
+}
+
+.cont__error h1{
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+ 
+  
+}
+
+.cont__error a{
+  text-decoration: none;
+  background: #e55039aa;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.cont__error a:hover{
+  background: #e55039;
+}
+
+@media only screen and (max-width:700px) {
   .cartasAdopcion {
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 2rem;
   }
+
   .card {
     width: 21rem;
     height: 27rem;
+    margin-bottom: 2rem;
   }
 
   .cardImg {
@@ -682,13 +513,29 @@ select {
     width: 20rem;
     margin-bottom: 1rem;
   }
-
-  .btn{
-    margin-left: 0.2rem;
+  .parraf3 {
+    width: 18rem;
+    align-content: center;
+    margin-left: 70px;
+  }
+ .parraf2 {
+  width: 19rem;
+  text-align: center;
+  align-content: left;
+  margin-left: 55px;
+ }
 }
+@media only screen and (max-width:400px) {
 
-  
+  .parraf3 {
+    width: 18rem;
+    align-content: center;
+    margin-left: 50px;
+  }
+ .parraf2 {
+  width: 19rem;
+  text-align: center;
+  align-content: left;
+  margin-left: 30px;
+ }
 }
-
-
-     
