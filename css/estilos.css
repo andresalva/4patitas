@@ -176,14 +176,14 @@ body {
 /*titulo videos*/
 .tit_titulo .titulo__ayuda {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
   padding: 15px; }
 
 .tit_titulo .ayuda__tit {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   padding: 10px; }
@@ -299,7 +299,7 @@ body {
       grid-column: 4;
       grid-column-start: 1;
       grid-column-end: 5;
-      background-image: url(../img/perro1.jpg);
+      background-image: url(../img/126974769_m.jpg);
       background-size: cover;
       background-position: center; }
     .galeria__grid .foto__galeria .imagen__2 {
@@ -309,7 +309,7 @@ body {
       grid-row: 2;
       grid-row-start: 2;
       grid-row-end: 3;
-      background-image: url(../img/refugio.jpg);
+      background-image: url(../img/perro1.jpg);
       background-size: cover;
       background-position: center; }
     .galeria__grid .foto__galeria .imagen__3 {
